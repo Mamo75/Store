@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`CUSTOMER` SET `Bank_Card_Number`='4567823099464389' WHERE `SSN`='104';

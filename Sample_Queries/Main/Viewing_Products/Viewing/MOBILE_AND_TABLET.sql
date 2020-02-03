@@ -1,0 +1,1 @@
+SELECT * FROM Digital_Store.MOBILE_AND_TABLET;

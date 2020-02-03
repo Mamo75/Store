@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`PERSON` (`SSN`, `First_Name`, `Last_Name`, `Password`, `Sex`, `Date_Of_Birth`, `Address`, `Home_Phone`, `Mobile_Phone`, `Email`) VALUES ('106', 'Parisa', 'Ahmadi', 'fj4%39mfkL', 'F', '1996-08-09', 'P. 40, Azadi Sq., Esfahan, Esfahan, Iran', '+98815544786', '+989154508756', 'parisa.ahmadi@gmail.com');

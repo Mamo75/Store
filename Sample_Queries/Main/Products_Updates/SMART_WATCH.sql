@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`SMART_WATCH` SET `Water_Resistanancy`='Y' WHERE `ID`='13';

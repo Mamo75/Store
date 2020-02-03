@@ -1,0 +1,1 @@
+SELECT * FROM Digital_Store.product_available;

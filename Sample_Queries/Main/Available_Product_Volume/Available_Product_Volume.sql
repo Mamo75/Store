@@ -1,0 +1,1 @@
+SELECT	`Digital_Store`.`Available_Product_Volume`()

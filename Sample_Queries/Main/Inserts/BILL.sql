@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`BILL` (`ID`, `BILL_Type`) VALUES ('DE9438777B', 'Telephone');

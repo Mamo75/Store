@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`MOBILE_AND_TABLET` SET `Number_Of_SIM_Cards`='3' WHERE `ID`='6';

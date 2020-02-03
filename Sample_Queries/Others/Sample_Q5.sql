@@ -1,0 +1,3 @@
+-- Join between CUSTOMER and BUYS
+SELECT	*
+FROM	CUSTOMER, BUYS;

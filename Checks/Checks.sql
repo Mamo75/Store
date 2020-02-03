@@ -1,0 +1,68 @@
+-- PERSON
+ALTER TABLE PERSON
+    ADD CONSTRAINT  Sex_C_1
+    CHECK   (Sex = 'M' OR Sex = 'F');
+
+ALTER TABLE PERSON
+    ADD CONSTRAINT  Date_Of_Birth_C_1
+    CHECK   (Date_Of_Birth < '2000-01-01');
+
+
+-- CEO
+ALTER TABLE CEO
+    ADD CONSTRAINT  Legal_Identifier_C_1
+    CHECK   (Legal_Identifier LIKE 'FX________________GH');
+
+ALTER TABLE CEO
+    ADD CONSTRAINT Capital_C_1
+    CHECK   (Capital > 500000);
+
+ALTER TABLE CEO
+    ADD CONSTRAINT  Dates_C_1
+    CHECK   (Date_Of_End > Date_Of_Start OR (Date_Of_End = Date_Of_Start AND Time_Of_End > Time_Of_Start));
+
+
+-- CUSTOMER
+
+
+-- PAYMENT_STUFF
+ALTER TABLE PAYMENT_STUFF
+    ADD CONSTRAINT  Amount_C_1
+    CHECK   (Amount >= 10);
+
+ALTER TABLE PAYMENT_STUFF
+    ADD CONSTRAINT  Dates_C_2
+    CHECK   (PAYMENT_STUFF.PAYS_Date > CEO.Date_Of_Start OR (PAYMENT_STUFF.PAYS_Date = CEO.Date_Of_Start AND PAYMENT_STUFF.PAYS_Time > CEO.Time_Of_End));
+
+
+-- PRODUCT
+ALTER TABLE PRODUCT
+    ADD CONSTRAINT  Date_Of_Production_C_1
+    CHECK   (Date_Of_Production >= '2015-01-01');
+
+ALTER TABLE PRODUCT
+    ADD CONSTRAINT  Sales_Price_C_1
+    CHECK (Sales_Price > Purchase_Price);
+
+ALTER TABLE PRODUCT
+    ADD CONSTRAINT  Datee_C_1
+    CHECK   (IMPORTS_Date > Date_Of_Production);
+
+ALTER TABLE PRODUCT
+    ADD CONSTRAINT  Dates_C_3
+    CHECK   (PRODUCT.IMPORTS_Date > CEO.Data_Of_Start OR (PRODUCT.IMPORTS_Date = CEO.Date_Of_Start AND PRODUCT.IMPORTS_Time > CEO.Time_Of_Start));
+
+
+-- ALL__IN_ONE_AND_LAPTOP
+
+
+-- MOBILE_AND_TABLET
+
+
+-- SMART_WATCH
+
+
+-- BUYS
+ALTER TABLE BUYS
+ADD CONSTRAINT  Datee_C_2
+CHECK   (BUYS.BUYS_Date > PRODUCT.IMPORTS_Date OR (BUYS.BUYS_Date = PRODUCT.IMPORTS_Date AND BUYS.BUYS_Time > PRODUCT.IMPORTS_Time));

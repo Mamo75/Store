@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`CEO` SET `Legal_Identifier`='FX2398456710935656GH' WHERE `SSN`='101';

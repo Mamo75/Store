@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`ALL_IN_ONE_AND_LAPTOP` (`ID`, `CPU`, `GPU`) VALUES ('15', 'Intel Core i7', 'AMD Radeon');

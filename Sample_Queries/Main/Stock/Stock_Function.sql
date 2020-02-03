@@ -1,0 +1,1 @@
+CALL `Digital_Store`.`Stock`();

@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`PERSON` SET `Email`='ahmad.muhammadi@outlook.com' WHERE `SSN`='104';

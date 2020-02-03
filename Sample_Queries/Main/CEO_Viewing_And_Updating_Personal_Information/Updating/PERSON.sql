@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`PERSON` SET `Home_Phone`='+98813544784' WHERE `SSN`='101';

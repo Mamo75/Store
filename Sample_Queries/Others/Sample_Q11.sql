@@ -1,0 +1,3 @@
+-- INSERT
+INSERT INTO `Digital_Store`.`CUSTOMER` (`SSN`, `Bank_Card_Number`)
+VALUES ('101', '8562103948493927');

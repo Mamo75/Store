@@ -1,0 +1,1 @@
+UPDATE `Digital_Store`.`ALL_IN_ONE_AND_LAPTOP` SET `GPU`='AMD Radeon PRO' WHERE `ID`='2';

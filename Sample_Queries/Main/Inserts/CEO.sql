@@ -1,0 +1,2 @@
+INSERT INTO `Digital_Store`.`CEO` (`SSN`, `Legal_Identifier`, `Captal`, `Date_Of_Start`, `Time_Of_Start`) VALUES ('101', 'FX2398456710935756GH', '1500000', '2017-07-28', '23:30:00');
+UPDATE `Digital_Store`.`CEO` SET `Date_Of_End`='2017-07-28', `Time_Of_End`='23:25:00' WHERE `SSN`='100';

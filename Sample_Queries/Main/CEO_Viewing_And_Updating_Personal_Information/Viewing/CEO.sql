@@ -1,0 +1,3 @@
+SELECT *
+FROM Digital_Store.CEO
+WHERE	SSN = 101;

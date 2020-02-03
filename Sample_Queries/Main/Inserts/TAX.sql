@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`TAX` (`ID`, `TAX_Group`) VALUES ('DE9538598T', 'Mid_Year');

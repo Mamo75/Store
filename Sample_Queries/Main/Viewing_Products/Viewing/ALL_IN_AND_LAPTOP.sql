@@ -1,0 +1,1 @@
+SELECT * FROM Digital_Store.ALL_IN_ONE_AND_LAPTOP;

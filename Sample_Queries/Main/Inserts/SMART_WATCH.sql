@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`SMART_WATCH` (`ID`, `Body_Material`, `Band_Type`, `Water_Resistanancy`) VALUES ('17', 'Aluminim', 'Plastic', 'Y');

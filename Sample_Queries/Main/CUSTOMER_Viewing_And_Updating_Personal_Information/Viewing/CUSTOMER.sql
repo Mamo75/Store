@@ -1,0 +1,2 @@
+SELECT * FROM Digital_Store.CUSTOMER
+WHERE SSN = 104;

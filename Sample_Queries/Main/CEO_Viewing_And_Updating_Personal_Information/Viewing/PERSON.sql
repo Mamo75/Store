@@ -1,0 +1,3 @@
+SELECT *
+FROM Digital_Store.PERSON
+WHERE SSN = 101 AND Password = 'DFKer3548';

@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`BUYS` (`CUSTOMER_SSN`, `PRODUCT_ID`, `Delivery_Address`, `BUYS_Date`, `BUYS_Time`) VALUES ('104', '17', 'P. 22, Baker St., London, UK', '2017-07-29', '01:00:00');

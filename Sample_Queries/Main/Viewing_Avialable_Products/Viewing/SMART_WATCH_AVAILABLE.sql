@@ -1,0 +1,1 @@
+SELECT * FROM Digital_Store.smart_watch_available;

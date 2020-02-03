@@ -1,0 +1,1 @@
+INSERT INTO `Digital_Store`.`MOBILE_AND_TABLET` (`ID`, `Number_Of_SIM_Cards`) VALUES ('16', '0');

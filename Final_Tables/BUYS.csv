@@ -1,0 +1,5 @@
+CUSTOMER_SSN,PRODUCT_ID,Delivery_Address,BUYS_Date,BUYS_Time
+101,2,"P. 22, Baker St., London, UK",2017-07-28,14:05:00
+102,5,"P. 22, Baker St., London, UK",2017-07-28,14:05:00
+103,10,"P. 22, Baker St., London, UK",2017-07-28,14:05:00
+104,17,"P. 22, Baker St., London, UK",2017-07-29,01:00:00
